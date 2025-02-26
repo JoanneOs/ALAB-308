@@ -54,3 +54,24 @@ let areFreindsSame=friend1==friend2;
 let greet = "Hello" + "," + "Joanne Osman"; // Using +
 let greetTemplate = `Hello, Joanne Osman!`; // Using template literals
 
+//6- implement escape sequences in strings for special characters:
+/*
+Escape sequence	Unicode code point
+\0	null character (U+0000 NULL)
+\'	single quote (U+0027 APOSTROPHE)
+\"	double quote (U+0022 QUOTATION MARK)
+\\	backslash (U+005C REVERSE SOLIDUS)
+\n	newline (U+000A LINE FEED; LF)
+\r	carriage return (U+000D CARRIAGE RETURN; CR)
+\v	vertical tab (U+000B LINE TABULATION)
+\t	tab (U+0009 CHARACTER TABULATION)
+\b	backspace (U+0008 BACKSPACE)
+\f	form feed (U+000C FORM FEED)*/
+let nullCharacter = "This is a null character: \0";
+console.log(nullCharacter);
+let singleQuote = 'It\'s a sunny day'; // Using \' to include a single quote inside single quotes
+console.log(singleQuote);
+let doubleQuote = "He said, \"Hello!\""; // Using \" to include double quotes inside double quotes
+console.log(doubleQuote);
+let backslash = "This is a backslash: \\"; // Using \\ to include a backslash
+console.log(backslash);
