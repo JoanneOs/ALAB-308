@@ -160,3 +160,12 @@ result = result % n4;            // Find the remainder when dividing by the four
 
 // Logging the result
 console.log("The result of the arithmetic chain is: " +result);
+
+//For example, instead of console.log(isValid), we could write: 
+console.log (`The four numbers are valid according to the provided criteria: ${isValid}.`)
+
+//second activity
+// Data
+const distance = 1500, money = 175, price = 3;
+const mpg55 = 30, mpg60 = 28, mpg75 = 23;
+const speed55 = 55, speed60 = 60, speed75 = 75;
