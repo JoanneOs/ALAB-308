@@ -33,3 +33,12 @@ newNumber %= 3; // newNumber is now equal to 0
 console.log(newNumber); // this will type the last value in newNumber
 
 //4-Use comparison operators to compare data.
+// this example for my kids
+let apples=5;
+let oranges=3;
+//is the number of apples same as orages?
+let isAppleorOrange= apples==oranges;
+//is the number of apples greater than oranges?
+let isMorethan= apple>oranges;
+//are oranges less or equal to apples?
+let isLessorSame= oranges <= apples;
