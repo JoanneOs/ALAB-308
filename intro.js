@@ -182,3 +182,8 @@ const trip = (speed, mpg) => {
   const fuel55 = distance / mpg55;
 const cost55 = fuel55 * price;
 const time55 = distance / speed55;
+
+// Trip details for 60 mph
+const fuel60 = distance / mpg60;
+const cost60 = fuel60 * price;
+const time60 = distance / speed60;
