@@ -101,6 +101,7 @@ const n1 = 10;
 const n2 = 15;
 const n3 = 20;
 const n4 = 5;
+const n5 = 5;//new const add to example n5
 
 // Check one: add up to 50
 // This is a fairly simple operation using
@@ -131,7 +132,7 @@ const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 
 const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // Finally, log the results.
-console.log(isValid);
+console.log("isUnder25 as an alternative. "+isValid);
 
 // Here's another example of how this COULD be done,
 // but it SHOULD NOT be done this way. As programmers,
@@ -143,7 +144,19 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
   //typing results
-  console.log(dontDoThis);
+  console.log("this is CodeSandbox example: " + dontDoThis);
 
   //checking if all number can be devided by 5
-  const isNumberDivided5= (n1%5===0)&&(n2%5===0)&&(n3%5===0)&&(n4%5===0)&&(n5%5===0)
+  const isNumberDivided5= (n1%5===0)&&(n2%5===0)&&(n3%5===0)&&(n4%5===0)&&(n5%5===0);
+
+  // check if the first number is larger than the last
+const isFirstLargerThanLast = n1 > n5;
+console.log("the results of n1 greater than n5 is: " + isFirstLargerThanLast);
+
+// Arithmetic chain:
+let result = n2 - n1;            // Subtract the first from the second (15 - 10 = 5)
+result = result * n3;            // Multiply the result by the third (5 * 20 = 100)
+result = result % n4;            // Find the remainder when dividing by the fourth (100 % 5 = 0)
+
+// Logging the result
+console.log("The result of the arithmetic chain is: " +result);
