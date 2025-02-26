@@ -50,3 +50,7 @@ let friend2="Selena";
 //are both same?
 let areFreindsSame=friend1==friend2;
 
+//5 Perform string concatenations.
+let greet = "Hello" + "," + "Joanne Osman"; // Using +
+let greetTemplate = `Hello, Joanne Osman!`; // Using template literals
+
