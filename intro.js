@@ -75,3 +75,16 @@ let doubleQuote = "He said, \"Hello!\""; // Using \" to include double quotes in
 console.log(doubleQuote);
 let backslash = "This is a backslash: \\"; // Using \\ to include a backslash
 console.log(backslash);
+let newLine = "This is line one.\nThis is line two."; // Using \n to move to a new line
+console.log(newLine);
+let carriageReturn = "This is before the carriage return.\rThis is after."; // Using \r for carriage return
+console.log(carriageReturn);
+let verticalTab = "This is before the vertical tab.\vThis is after."; // Using \v for vertical tab (not always visible in consoles)
+console.log(verticalTab);
+let tab = "This is a tab:\tHere it is after a tab."; // Using \t for tab space
+console.log(tab);
+let backspace = "This is before\b and this is after."; // Using \b for backspace (removes previous character)
+console.log(backspace);
+let formFeed = "This is before the form feed.\fThis is after."; // Using \f for form feed (not visible in most consoles)
+console.log(formFeed);
+
