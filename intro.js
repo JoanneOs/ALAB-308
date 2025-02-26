@@ -23,3 +23,13 @@ So dawn goes down to day.
 Nothing gold can stay.`;
 
 console.log(frost);
+
+//now 3 using arithmetic operators to manipulate data.
+let newNumber = 9;
+newNumber -= 3; // newNumber is now equal to 6
+newNumber /= 3; // newNumber is now equal to 2
+newNumber *= 3; // newNumber is now equal to 6
+newNumber %= 3; // newNumber is now equal to 0
+console.log(newNumber); // this will type the last value in newNumber
+
+//4-Use comparison operators to compare data.
