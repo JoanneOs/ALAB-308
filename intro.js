@@ -169,3 +169,16 @@ console.log (`The four numbers are valid according to the provided criteria: ${i
 const distance = 1500, money = 175, price = 3;
 const mpg55 = 30, mpg60 = 28, mpg75 = 23;
 const speed55 = 55, speed60 = 60, speed75 = 75;
+
+// function to get trip info
+const trip = (speed, mpg) => {
+    const fuel = distance / mpg;
+    const cost = fuel * price;
+    const hours = distance / speed;
+    return { fuel, cost, hours };
+  };
+
+  //trip for 55 mph
+  const fuel55 = distance / mpg55;
+const cost55 = fuel55 * price;
+const time55 = distance / speed55;
