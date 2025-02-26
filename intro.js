@@ -148,7 +148,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
   //checking if all number can be devided by 5
   const isNumberDivided5= (n1%5===0)&&(n2%5===0)&&(n3%5===0)&&(n4%5===0)&&(n5%5===0);
-
+console.log("this is answer is divided by 5 = " + isNumberDivided5)
   // check if the first number is larger than the last
 const isFirstLargerThanLast = n1 > n5;
 console.log("the results of n1 greater than n5 is: " + isFirstLargerThanLast);
