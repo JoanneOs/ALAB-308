@@ -1,37 +1,37 @@
- let t1=7
+let t1=7
 
- let g// declare the variable
+let g// declare the variable
 
- g="this is my value" //assigning the variable a value
+g="this is my value" //assigning the variable a value
 
- var myVariable = "some value";
- let mySecond = true;
- const PI = 3.1415926
+var myVariable = "some value";
+let mySecond = true;
+const PI = 3.1415926
 
- //an is short for Account Number n, you have to explain or give your variable as meaningfule.
- let an = 5;
+//an is short for Account Number n, you have to explain or give your variable as meaningfule.
+let an = 5;
 
- //or  like this
- let accountNumber = 5;
+//or  like this
+let accountNumber = 5;
 let g=6;
 let r=7;
- console.log(g+r)
+console.log(g+r)
 
 
 let my_account_number = 7
 var myName = "Tishana"
- //declaring a variable
+//declaring a variable
 myName = "Joy"
- //re-assigning the same
+//re-assigning the same
 
 // see the value of X is deffernet between {} cairly braices
 
 
 
- let x=10;
+let x=10;
 
- {
-    let x=2;
+{
+   let x=2;
 }
 
 
@@ -102,13 +102,13 @@ console.log(name[2]); // i
 console.log("Hello World"[4]); // o
 
 const frost =
-	"Nature’s first green is gold, " +
-	"Her hardest hue to hold. " +
-	"Her early leaf’s a flower; " +
-	"But only so an hour. " +
-	"Then leaf subsides to leaf. " +
-	"So Eden sank to grief, " +
-	"So dawn goes down to day. " +
-	"Nothing gold can stay. ";
+   "Nature’s first green is gold, " +
+   "Her hardest hue to hold. " +
+   "Her early leaf’s a flower; " +
+   "But only so an hour. " +
+   "Then leaf subsides to leaf. " +
+   "So Eden sank to grief, " +
+   "So dawn goes down to day. " +
+   "Nothing gold can stay. ";
 
 console.log(frost)
