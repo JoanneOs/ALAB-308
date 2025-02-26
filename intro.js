@@ -88,3 +88,5 @@ console.log(backspace);
 let formFeed = "This is before the form feed.\fThis is after."; // Using \f for form feed (not visible in most consoles)
 console.log(formFeed);
 
+//7-Implement escape sequences in strings for special characters.
+let message = "This is a very new line\nthis is a tab\tThis is a quote: \"PerSchols\"";
