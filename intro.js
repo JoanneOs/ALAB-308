@@ -192,3 +192,8 @@ const time60 = distance / speed60;
 const fuel75 = distance / mpg75;
 const cost75 = fuel75 * price;
 const time75 = distance / speed75;
+
+// log results for each speed
+console.log(`At 55 mph: Fuel: ${fuel55.toFixed(2)} gallons, Cost: $${cost55.toFixed(2)}, Time: ${time55.toFixed(2)} hours, Enough money? ${cost55 <= money ? "Yes" : "No"}`);
+console.log(`At 60 mph: Fuel: ${fuel60.toFixed(2)} gallons, Cost: $${cost60.toFixed(2)}, Time: ${time60.toFixed(2)} hours, Enough money? ${cost60 <= money ? "Yes" : "No"}`);
+console.log(`At 75 mph: Fuel: ${fuel75.toFixed(2)} gallons, Cost: $${cost75.toFixed(2)}, Time: ${time75.toFixed(2)} hours, Enough money? ${cost75 <= money ? "Yes" : "No"}`);
